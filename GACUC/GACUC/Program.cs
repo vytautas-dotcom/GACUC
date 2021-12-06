@@ -6,7 +6,9 @@ namespace GACUC
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Show show = new Show();
+
+            show.Display();
         }
     }
 }
